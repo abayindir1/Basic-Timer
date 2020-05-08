@@ -3,6 +3,7 @@ $(document).ready(function(){
     $(".btn").click(function(duration){
         var duration = $("#timer-form").val()
         console.log(duration)
+        $("#timer-form").val("");
         if(duration <= 0 || duration === null){
             alert("Enter a bigger number")
         }else{
@@ -20,7 +21,7 @@ $(document).ready(function(){
                     seconds = 0
                     audio.play()
                 }
-                console.log(minutes + ":" + seconds)
+                $("#timer").html(minutes + ":" + seconds)
             },1000)
 
         }

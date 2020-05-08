@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white
+}
+.content{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+}
+.form-control{
+    width: 4rem;
+    height: 1.3rem;
+}
+.btn{
+    width: 15%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
